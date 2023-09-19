@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Work+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+.game {
+  display: flex;
+  gap: 12px;
+}
+
+.gamer {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  margin: 24px;
+}
+
+li > a {
+  text-decoration: none;
+  color: #3c354f;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  margin: 28px 64px;
+}
+
+.piay {
+  color: #0b0223;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.goat {
+  font-family: Work Sans;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #8758f1;
+  text-transform: uppercase;
+}
+
+.btn-1 {
+  background-color: #ff42a5;
+  color: white;
+  border-radius: 48px;
+  border: none;
+  padding: 16px 24px;
+}
+
+.btn-2 {
+  background-color: #4ec5f7;
+  color: white;
+  border-radius: 48px;
+  border: none;
+  padding: 16px 24px;
+}
+
+.title {
+  padding: 64px;
+  background-image: url("images/Group\ 14.png");
+  width: 100%;
+  gap: 16px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 120px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  margin: 40px 64px;
+}
