@@ -91,7 +91,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 120px;
+  margin-right: 84px;
 }
 
 .about {
@@ -104,15 +104,75 @@ h2 {
   display: flex;
 }
 
-.download {
-  display: flex;
-  gap: 28px;
+.talking-girl {
+  position: relative;
+  bottom: 300px;
+  right: 200px;
 }
 
 .online {
   text-align: center;
+  margin: 84px;
 }
 
-p {
-  color: #534c64;
+.download {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 84px;
+  margin-right: 84px;
+  margin-bottom: 0px;
+}
+
+.cat {
+  position: relative;
+  left: 420px;
+  bottom: 260px;
+}
+
+.time {
+  padding: 16px;
+}
+
+.anywhere-anytime {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 84px;
+  margin-right: 84px;
+  margin-bottom: 0px;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.careers {
+  display: flex;
+  align-items: center;
+  background-color: #ff42a5;
+  color: white;
+  padding-left: 64px;
+}
+
+.basketball {
+  border: 2px solid;
+  border-color: #ff42a5;
+  border-radius: 24px;
+  display: flex;
+  padding: 8px;
+  color: #ff42a5;
+}
+
+.iteam-1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 64px;
+}
+
+.itm-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 120px;
 }
