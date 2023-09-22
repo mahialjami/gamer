@@ -39,25 +39,29 @@ li > a {
   margin: 28px 64px;
 }
 
-.piay {
+h3 {
   color: #0b0223;
   text-align: center;
   font-family: Work Sans;
-  font-size: 64px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
 }
 
-.goat {
+h2 {
   font-family: Work Sans;
   font-size: 95px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  color: #8758f1;
+
   text-transform: uppercase;
+}
+
+.text-color {
+  color: #8758f1;
 }
 
 .btn-1 {
@@ -94,4 +98,21 @@ li > a {
   display: flex;
   align-items: center;
   margin: 40px 64px;
+}
+
+.games-videos {
+  display: flex;
+}
+
+.download {
+  display: flex;
+  gap: 28px;
+}
+
+.online {
+  text-align: center;
+}
+
+p {
+  color: #534c64;
 }
