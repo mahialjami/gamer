@@ -5,18 +5,23 @@
   font-family: "Work Sans", sans-serif;
 }
 
-.game {
-  display: flex;
-  gap: 12px;
+.hue {
+  color: #ff42a5;
 }
 
-.gamer {
-  text-align: center;
-  font-family: Work Sans;
-  font-size: 45px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+.game {
+  display: flex;
+}
+
+.icons {
+  width: 24%;
+  height: 24%;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.follow {
+  display: flex;
 }
 
 ul {
@@ -32,11 +37,17 @@ li > a {
   color: #3c354f;
 }
 
+.found {
+  display: flex;
+  justify-content: space-between;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 60px;
   margin: 28px 64px;
+  gap: 300px;
 }
 
 h3 {
@@ -175,4 +186,40 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin: 48px 120px;
+}
+
+.console {
+  display: flex;
+  margin-left: 520px;
+  margin-bottom: 40px;
+}
+
+.ours {
+  display: flex;
+  justify-content: space-between;
+  margin: 72px;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  margin: 0px 36px;
+}
+
+.social-sit {
+  display: flex;
+}
+
+.condition-policy {
+  display: flex;
+  justify-content: space-between;
+  margin: 72px;
+}
+
+.end {
+  background-color: #0b0223;
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding: 120px;
 }
