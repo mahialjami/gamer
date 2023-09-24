@@ -223,3 +223,82 @@ h2 {
   align-items: center;
   padding: 120px;
 }
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    margin: 4px;
+  }
+
+  ul,
+  .download,
+  .anywhere-anytime,
+  .careers {
+    flex-direction: column;
+  }
+  .banner {
+    flex-direction: column;
+    padding: 16px;
+    align-items: center;
+  }
+  .image {
+    width: 100%;
+    margin-left: 16px;
+  }
+
+  .cartoon {
+    width: 120%;
+  }
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .games-videos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .games-videos img {
+    width: 100%;
+  }
+
+  .children img {
+    width: 100%;
+  }
+
+  .iteam-1 {
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
+    margin-left: 0px;
+  }
+  .itm-2 {
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+    margin-left: 0px;
+  }
+
+  .console {
+    margin: 64px 120px;
+  }
+  .ours,
+  .social-site {
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px;
+    gap: 24px;
+  }
+  .condition-policy {
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .end {
+    padding: 12px;
+  }
+}
